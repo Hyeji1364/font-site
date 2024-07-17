@@ -181,26 +181,34 @@ body {
   background-color: #f8da1b;
   color: #7d78a4;
   flex-direction: column;
-  font-size: 3vw;
-  line-height: 0.7;
+  font-size: 5vw;
+  line-height: 1;
   text-transform: capitalize;
   text-align: center;
 }
 
+.font-wrap .font.s8 span {
+  display: block;
+  width: 100%;
+}
+
 .font-wrap .font.s8 span:first-child {
-  margin-bottom: 50px;
+  margin-bottom: 20px;
   font-weight: 300;
+  font-size: 4vw;
 }
 
 .font-wrap .font.s8 span:nth-child(2) {
   font-weight: 700;
-  margin-bottom: 50px;
+  margin-bottom: 20px;
+  font-size: 3vw;
   color: #fff;
 }
 
 .font-wrap .font.s8 span:nth-child(3) {
-  margin-bottom: 50px;
-  font-weight: 300;
+  font-weight: 700;
+  margin-bottom: 20px;
+  font-size: 2vw;
 }
 
 .font-wrap .font.s9 {
