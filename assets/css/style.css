@@ -1,0 +1,275 @@
+body {
+  background-color: #000;
+}
+
+#wrap {
+  width: 100%;
+}
+
+.font-title {
+  width: 100%;
+  text-align: center;
+}
+
+.font-title h1 {
+  background-color: #fff;
+  display: inline-block;
+  margin: 0 auto;
+  width: 300px;
+  margin: 30px;
+  border-radius: 40px;
+  font-weight: 100;
+}
+
+.font-wrap {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+  grid-auto-rows: 1fr;
+  gap: 20px;
+  padding: 1rem;
+}
+
+.font-wrap .font {
+  background-color: #ddd;
+  aspect-ratio: 4/3;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.font-wrap .font.s1 {
+  background-color: #0460f5;
+  color: #fff;
+  font-size: 4vw;
+  font-family: "GmarketSans";
+  flex-direction: column;
+  line-height: 1;
+}
+
+.font-wrap .font.s1 span {
+  display: block;
+}
+
+.font-wrap .font.s2 {
+  font-family: "jeonHwaSeon";
+  background-color: #f397f9;
+  color: #fff;
+  flex-direction: column;
+  font-size: 11vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s3 {
+  font-family: "ClimateCrisisKR-1979";
+  background-color: #9c9cdd;
+  color: #f9bdbd;
+  flex-direction: column;
+  font-size: 5vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s3 span:first-child {
+  margin-bottom: 20px;
+}
+
+.font-wrap .font.s3 span:nth-child(2) {
+  transform: scaleY(-1);
+}
+
+.font-wrap .font.s4 {
+  font-family: "GongGothicMedium";
+  background-color: #a6cfe2;
+  color: #0b0c11;
+  flex-direction: column;
+  font-size: 5vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s4 span:first-child {
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+
+.font-wrap .font.s4 span:nth-child(2) {
+  font-weight: 300;
+}
+
+.font-wrap .font.s5 {
+  font-family: "S-CoreDream-3Light";
+  background-color: #ffefe5;
+  color: #1fc8a9;
+  flex-direction: column;
+  font-size: 5vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s5 span:first-child {
+  font-weight: 100;
+  margin-bottom: 50px;
+}
+
+.font-wrap .font.s5 span:nth-child(2) {
+  font-weight: 500;
+  margin-bottom: 50px;
+}
+
+.font-wrap .font.s5 span:nth-child(3) {
+  font-weight: 900;
+  margin-bottom: 50px;
+}
+
+.font-wrap .font.s6 {
+  font-family: "MapoAgape";
+  background-color: #b3e0e0;
+  color: #f6fcfc;
+  flex-direction: column;
+  font-size: 6vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s6 span:first-child {
+  margin-bottom: 50px;
+  transform: scaleX(0.5);
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s6 span:nth-child(2) {
+  font-weight: 500;
+  font-size: 3vw;
+  transform: scaleX(0.5);
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s6:hover span {
+  transform: scaleX(1); /* hover 시 두 span 요소 모두 원래 크기로 */
+}
+
+.font-wrap .font.s7 {
+  font-family: "CookieRun-Regular";
+  background-color: #9ab79a;
+  color: #fdff50;
+  flex-direction: column;
+  font-size: 6vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s7 span:first-child {
+  margin-bottom: 50px;
+}
+
+.font-wrap .font.s7 span:nth-child(2) {
+  font-weight: 500;
+  font-size: 3vw;
+  margin-bottom: 50px;
+}
+
+.font-wrap .font.s8 {
+  font-family: "TTTtangsbudaejjigaeB";
+  background-color: #f8da1b;
+  color: #7d78a4;
+  flex-direction: column;
+  font-size: 3vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s8 span:first-child {
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.font-wrap .font.s8 span:nth-child(2) {
+  font-weight: 700;
+  margin-bottom: 50px;
+  color: #fff;
+}
+
+.font-wrap .font.s8 span:nth-child(3) {
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+.font-wrap .font.s9 {
+  font-family: "LOTTERIACHAB";
+  background-color: #e0e7fa;
+  color: #649ccb;
+  flex-direction: column;
+  font-size: 1.5vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s9 span:first-child {
+  margin-bottom: 50px;
+  transform: scaleY(1.5);
+  transform: scaleX(1.2);
+  font-size: 3vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s9 span:nth-child(2) {
+  margin-bottom: 50px;
+  transform: scaleY(1.5);
+  transform: scaleX(1.2);
+  font-size: 5vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s9 span:nth-child(3) {
+  margin-bottom: 50px;
+  transform: scaleY(1.5);
+  transform: scaleX(1.2);
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s9:hover span {
+  transform: scaleY(1); /* hover 시 두 span 요소 모두 원래 크기로 */
+  transform: scaleX(0.5);
+}
+
+.font-wrap .font.s10 {
+  font-family: "LOTTERIADDAG";
+  background-color: #17c37b;
+  color: #f4f4f4;
+  flex-direction: column;
+  font-size: 1.5vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s10 span:first-child {
+  margin-bottom: 20px;
+  font-size: 1vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s10 span:nth-child(2) {
+  margin-bottom: 20px;
+  font-size: 2vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s10 span:nth-child(3) {
+  margin-bottom: 20px;
+  font-size: 3vw;
+}
+.font-wrap .font.s10 span:nth-child(4) {
+  margin-bottom: 20px;
+  font-size: 4vw;
+}
