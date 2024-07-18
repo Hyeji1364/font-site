@@ -293,7 +293,7 @@ body {
   text-align: center;
 }
 
-.font-wrap .font.s11 {
+.font-wrap .font.s16 {
   font-family: "CWDangamAsac-Bold";
   background-color: #e54b4b;
   color: #f4f4f4;
@@ -362,4 +362,125 @@ body {
 .font-wrap .font.s12 span:nth-child(4) {
   margin-bottom: 20px;
   transform: scaleX(-1);
+}
+
+.font-wrap .font.s13 {
+  font-family: "GmarketSans";
+  background-color: #19aad1;
+  color: #ffcc4c;
+  flex-direction: column;
+  font-size: 2vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s13 span:first-child {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+  font-size: 3vw;
+}
+
+.font-wrap .font.s13 span:nth-child(2) {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s13 span:nth-child(3) {
+  margin-bottom: 20px;
+  transform: scaleX(-1);
+  font-size: 3vw;
+}
+.font-wrap .font.s13 span:nth-child(4) {
+  margin-bottom: 20px;
+  transform: scaleX(-1);
+}
+
+.font-wrap .font.s14 {
+  font-family: "GmarketSans";
+  background-color: #ce7182;
+  color: #faeed4;
+  flex-direction: column;
+  font-size: 3vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s14 span:first-child {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s14 span:nth-child(2) {
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s14 span:nth-child(3) {
+  margin-bottom: 20px;
+  transform: scaleX(-1);
+}
+
+.font-wrap .font.s15 {
+  font-family: "GmarketSans";
+  background-color: #ff6090;
+  color: #ffff;
+  flex-direction: column;
+  font-size: 4vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+
+.font-wrap .font.s15 span:first-child {
+  margin-bottom: 20px;
+  font-size: 4vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s15 span:nth-child(2) {
+  margin-bottom: 20px;
+  font-size: 3vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s15 span:nth-child(3) {
+  font-size: 2vw;
+  margin-bottom: 20px;
+}
+
+.font-wrap .font.s16 {
+  font-family: "GmarketSans";
+  background-color: #f4c7ee;
+  color: #008fd3;
+  flex-direction: column;
+  font-size: 3vw;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+.font-wrap .font.s16 span:first-child {
+  font-weight: 900;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s16 span:nth-child(2) {
+  font-weight: 900;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+
+.font-wrap .font.s16 span:nth-child(3) {
+  font-weight: 100;
+  margin-bottom: 20px;
+  transform: scaleY(-1);
+  font-size: 2vw;
+}
+.font-wrap .font.s16 span:nth-child(4) {
+  margin-bottom: 20px;
+  transform: scaleY(-1);
 }
