@@ -136,6 +136,22 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: "CWDangamAsac-Bold";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2108@1.1/CWDangamAsac-Bold.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SimKyungha";
+  src: url("https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_2202-2@1.0/SimKyungha.woff")
+    format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
 /* border-box 초기화 */
 *,
 *:before,
