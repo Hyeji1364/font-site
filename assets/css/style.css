@@ -282,28 +282,6 @@ body {
   font-size: 4vw;
 }
 
-.font-wrap .font.s10 {
-  font-family: "LOTTERIADDAG";
-  background-color: #17c37b;
-  color: #f4f4f4;
-  flex-direction: column;
-  font-size: 1.5vw;
-  line-height: 0.7;
-  text-transform: capitalize;
-  text-align: center;
-}
-
-.font-wrap .font.s16 {
-  font-family: "CWDangamAsac-Bold";
-  background-color: #e54b4b;
-  color: #f4f4f4;
-  flex-direction: column;
-  font-size: 3vw;
-  line-height: 0.7;
-  text-transform: capitalize;
-  text-align: center;
-}
-
 .font-wrap .font.s11 span:first-child {
   margin-bottom: 20px;
   transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
@@ -483,4 +461,58 @@ body {
 .font-wrap .font.s16 span:nth-child(4) {
   margin-bottom: 20px;
   transform: scaleY(-1);
+}
+
+.font-wrap .font.s17 {
+  font-family: "GmarketSans";
+  background-color: #fbfe56;
+  color: #0b64c0;
+  flex-direction: column;
+  line-height: 0.7;
+  text-transform: capitalize;
+  font-size: 3vw;
+  text-align: center;
+}
+.font-wrap .font.s17 span:first-child {
+  font-weight: 900;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s17 span:nth-child(2) {
+  font-weight: 900;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+  margin-bottom: 20px;
+  font-size: 2vw;
+}
+
+.font-wrap .font.s18 {
+  font-family: "GmarketSans";
+  background-color: #0e2494;
+  color: #fbeccf;
+  flex-direction: column;
+  line-height: 0.7;
+  text-transform: capitalize;
+  text-align: center;
+}
+.font-wrap .font.s18 span:first-child {
+  font-weight: 900;
+  margin-bottom: 20px;
+  font-size: 1.5vw;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+}
+
+.font-wrap .font.s18 span:nth-child(2) {
+  font-weight: 900;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease; /* 부드러운 전환 효과 추가 */
+  margin-bottom: 50px;
+  font-size: 2.5vw;
+}
+
+.font-wrap .font.s18 span:nth-child(3) {
+  font-weight: 100;
+  margin-bottom: 20px;
+  font-size: 4vw;
 }
